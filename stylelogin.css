@@ -19,13 +19,11 @@ display: flex;
 
 .container{
 width: 420px;
-background-color: transparent;
+background-color: #0b0e13;
 border: 2px solid rgba(red, green, blue, alpha);
 border-radius: 10px;
 color: #fff;
 padding: 30px 40px;
-box-shadow: 0 0 1em rgb(255, 255, 255);
-backdrop-filter: blur(20px);
 }
 
 .container h1{
