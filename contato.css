@@ -1,10 +1,14 @@
-
 * {
   box-sizing: border-box; 
 }
 
-body {
+html, body {
   margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
   display: flex;
   flex-direction: column;
   background: #0b0e13;
@@ -44,6 +48,7 @@ main {
   justify-content: center;    
   align-items: center;         
   padding: 20px;
+
 }
 
 section {
@@ -98,12 +103,11 @@ button:hover {
 }
 
 footer {
+  margin-top: auto; 
   background: #212127;
   color: #ffffff;
   text-align: center;
   padding: 15px 0;
-  
-  bottom: 0;
-  width: 100%;
   font-size: 0.9em;
+  width: 100%;
 }
