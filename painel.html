@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Perfil do Cliente</title>
+    <link rel="stylesheet" href="painel.css">
+</head>
+<body>
+
+    <!-- Menu lateral -->
+    <div class="sidebar">
+        <h2>Perfil do Cliente</h2>
+        <ul>
+            <li><a href="#meus-projetos">Meus Projetos</a></li>
+            <li><a href="#editar-perfil">Editar Perfil</a></li>
+        </ul>
+    </div>
+
+    <!-- Conteúdo principal -->
+    <div class="main-content">
+
+        <!-- Sessão Meus Projetos -->
+        <div class="section" id="meus-projetos">
+            <h3>Seus Projetos</h3>
+            <ul class="project-list">
+                <li>   Projeto Amazônia Verde</li>
+                <li>   Projeto Energia Solar</li>
+
+
+            </ul>
+        </div>
+
+        <!-- Sessão Editar Perfil -->
+        <div class="section" id="editar-perfil">
+            <h3>Editar Perfil</h3>
+            <form action="#" method="post" enctype="multipart/form-data">
+                <label for="nome">Alterar nome de usuario:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu novo usuario">
+
+                <label for="bio">Bio:</label>
+                <textarea id="bio" name="bio" rows="3" placeholder="Fale um pouco sobre você"></textarea>
+
+                <label for="foto">Foto de Perfil:</label>
+                <input type="file" id="foto" name="foto">
+
+                <input type="submit" value="Salvar Mudanças">
+            </form>
+        </div>
+
+    </div>
+  
+</body>
+</html>
