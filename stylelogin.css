@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+font-family: "Poppins", sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+
+body{
+display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #0b0e13;
+}
+
+.container{
+width: 420px;
+background-color: transparent;
+border: 2px solid rgba(red, green, blue, alpha);
+border-radius: 10px;
+color: #fff;
+padding: 30px 40px;
+box-shadow: 0 0 1em rgb(255, 255, 255);
+backdrop-filter: blur(20px);
+}
+
+.container h1{
+font-size: 36px;
+text-align: center;
+
+
+}
+
+.input-box{
+position: relative;
+width: 100%;
+height: 50px;
+margin: 30px 0;
+}
+
+.input-box input{
+width: 100%;
+height: 100%;
+background-color: transparent;
+border: 2px solid rgba(red, green, blue, alpha);
+outline: none;
+font-size: 16px;
+color: #fff;
+padding: 20px 45px 20px 20px;
+border-radius: 40px;
+
+}
+
+.input-box input::placeholder{
+    color: #b9b9b9;
+}
+
+.lembrar{
+    background-color: ;
+display: flex;
+justify-content: space-between;
+margin: -15px 0 15px;
+
+}
+
+.lembrar label input{
+accent-color: #fff;
+margin-right: 5px;
+}
+
+.lembrar a{
+    background-color: #cbcbcb;
+    border: #cbcbcb solid 2px;
+    border-radius: 10px;
+    color: #000000;
+}
+
+.lembrar a:hover{
+    text-decoration: underline;
+    color: #0011ff;
+}
+
+.login{
+width: 100%;
+height: 50px;
+background-color: #34475b;
+border: none;
+border-radius: 40px;
+cursor: pointer;
+font-size: 16px;
+font-weight: 600;
+
+}
+
+.login:hover{
+background-color: transparent;
+border: 2px solid rgba(red, green, blue, alpha);
+color: #fff;
+transition: 0.5s;
+}
+.registre-se{
+    
+font-size: 14px;
+text-align: center;
+margin: 20px 0 15px;
+}
+
+.registre-se a{
+    background-color: #ffffff;
+text-decoration: none;
+color: #000000;
+font-weight: 600;
+border: #b9b9b9 2px solid;
+border-radius: 10px;
+}
+
+.registre-se a:hover{
+text-decoration: underline;
+color: #0011ff;
+}
+
+nav {
+    color: #cbcbcb;
+    font-family: Arial;
+    justify-content: space-around;
+    align-items: center;
+    
+    display: flex;
+    height: 8vhs;
+
+
+}
+
+.nav-item{
+list-style: none;
+display: flex;
+}
+
+.nav-item li{
+    initial-letter: 3px;
+    margin-left: 32px;
+    
+
+}
+
+footer {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  background: #212127;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px 0;
+  
+  bottom: 0;
+  width: 100%;
+  font-size: 0.9em;
+}
+
